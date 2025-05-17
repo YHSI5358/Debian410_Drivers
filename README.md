@@ -24,9 +24,9 @@
 
    这里记住0bda和c811，是我们无线网卡Realtek Semiconductor Corp. 802.11ac NIC的id
 
-2. 使用**usb_modeswitch**命令进行usb设备的模式切换（没有这个命令的话需要先**apt-get install usb_modeswitch**一下），
+2. 使用**usb-modeswitch**命令进行usb设备的模式切换（没有这个命令的话需要先**apt-get install usb-modeswitch**一下），
 
-   例如：**usb_modeswitch -KW -v 0bda -p c811**
+   例如：**usb-modeswitch -KW -v 0bda -p c811**
 
    这里的-v后面的参数和-p后面的参数分别对应厂商id和设备id
 
